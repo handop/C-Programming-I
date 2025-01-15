@@ -1,17 +1,46 @@
 <h1>Survey Application</h1>
 
 <h2>Description</h2>
-The application for this project was written in C. The application was written to be able to collect and verify user input, store it in a comma separated values file, and process that data to provide statistics to the user. The application has two modes: Write mode and Read Mode. In Write mode, the user is asked to fill in a survey containing the date the survey was taken, as well as the user's State, County, Race, Number living in Household, and Yearly Income. Once all that was collected, it formatted the data for uniformity and stored in a csv text file for future use. In Read Mode, the program pulls all the data in the csv file and stores it in an array of structures, and the user is given several options to 
+This application was made for a hypothetical survey for the Hamilton, Butler, Boone, and Kenton counties that asked for geographic information, race, number of people living in the house, and yearly income. There are two sides to this program: Write Mode and Read Mode.
+
+<h4>Write Mode</h4>
+This half has the user enter the survey information, which collects:
+
+<ul>
+  <li>Survey Date</li>
+  <li>State</li>
+  <li>County</li>
+  <li>Race</li>
+  <li>Number of People in Household</li>
+  <li>Household Yearly Income</li>
+</ul>
+
+Once the data is collected and verified, it saves the data in a comment-seperated-values (csv) text file, and the user can either enter more survey data or exit to the main menu.
+
+<h4>Read Mode</h4>
+This half takes the data from the csv file and stores it in an array of structures. Once this is done, the user is given several options to look at the data breakdown:
+
+<ul>
+  <li>Total Surveys Taken</li>
+  <li>Total Surveys Taken by State and County</li>
+  <li>Total Surveys Taken by Race</li>
+  <li>Overall Average Income</li>
+  <li>Average Income by State and County</li>
+  <li>Average Income by Race</li>
+  <li>Overall Poverty Rate</li>
+  <li>Poverty Rate by State and County</li>
+  <li>Poverty Rate by Race</li>
+</ul>
+
+Once one of the above options is selected, the program processes and calculates the data based on what the user wanted. 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Visual Basic</b> 
-- <b>SQL</b>
+- <b>C</b> 
 
 <h2>Environments Used </h2>
 
 - <b>Visual Studio</b>
-- <b>Microsoft SQL Server</b>
 
 <h2>Program walk-through:</h2>
 
