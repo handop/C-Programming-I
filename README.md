@@ -42,7 +42,15 @@ Once one of the above options is selected, the program processes and calculates 
 
 - <b>Visual Studio</b>
 
-<h2>Program walk-through:</h2>
+<h2>The Project .ZIP Contains:</h2>
+<ul>
+  <li>The Visual Studio Solution Folder</li>
+  <li>The original .c File</li>
+  <li>A .txt file that contains test Survey Data</li>
+</ul>
+
+<b>NOTE: When using this application, it modifies the SurveyData.txt file within this project if you are in Write Mode. This may cause your antivirus software to flag this as suspicious and throw a warning message.<b>
+
 
 <p align="center">
 
